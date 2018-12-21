@@ -4,12 +4,12 @@ import './App.css';
 import { Application } from '../Application';
 
 class App extends Component {
-  constructor(props: {}){
+  constructor(props: {}) {
     super(props);
     const app = new Application();
   }
 
-  render() {
+  public render() {
     return (
       <div className="main">
 

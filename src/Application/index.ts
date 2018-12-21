@@ -1,7 +1,7 @@
 
 export class Application {
 
-    constructor(){
+    constructor() {
         console.log('App Init...');
     }
 }
