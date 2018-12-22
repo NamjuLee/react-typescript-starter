@@ -1,6 +1,6 @@
 import { DefinitionBase } from '../../Core/DefinitionBase';
 import { Application } from '../..';
-
+import { MouseEventData } from '../../Core/MouseInteraction';
 export class VisA extends DefinitionBase {
     app: Application;
     t: number = 0;
@@ -21,5 +21,14 @@ export class VisA extends DefinitionBase {
         ctx.fill();
 
         this.t += 0.05;
+    }
+    MouseLeftClick(e: MouseEventData) {
+        console.log('L-click');
+    }
+    MouseDoubleClick(e: MouseEventData) {
+        console.log('D-click');
+    }
+    MouseDrag(e: MouseEventData) {
+        console.log('Drag');
     }
 }
