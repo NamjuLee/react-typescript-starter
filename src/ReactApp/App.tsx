@@ -6,12 +6,14 @@ import { Application } from '../Application';
 class App extends Component {
   constructor(props: {}) {
     super(props);
-    const app = new Application();
+    
   }
-
+  componentDidMount() {
+    const app = new Application('main');
+  }
   public render() {
     return (
-      <div className="main">
+      <div id ="main">
 
       </div>
     );
