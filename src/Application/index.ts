@@ -2,7 +2,9 @@ import { Canvas } from './Core/Canvas';
 import { Renderer } from './Core/Renderer';
 import { ActiveCommands } from './Core/ActiveCommands';
 import { MouseInteraction } from './Core/MouseInteraction';
+
 import { VisA } from './Definition/VisA';
+import { DS } from './Definition/DS';
 
 export class Application {
 
@@ -25,6 +27,7 @@ export class Application {
         this.InitDefinition();
     }
     InitDefinition() {
-        const visA = new VisA(this);
+        // const visA = new VisA(this);
+        const ds = new DS(this);
     }
 }
