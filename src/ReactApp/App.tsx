@@ -1,19 +1,18 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
+import { Application } from '../Application';
 import './App.css';
 
-import { Application } from '../Application';
-
 class App extends Component {
-  constructor(props: {}) {
-    super(props);
-    new Application();
-
+  constructor() {
+    super({});
   }
-
+  public componentDidMount(){
+    new Application();
+  }
   public render() {
     return (
-      <div className="main">
-
+      <div id = "main">
+        Hello World
       </div>
     );
   }
