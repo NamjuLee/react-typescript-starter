@@ -6,7 +6,8 @@ import { Application } from '../Application';
 class App extends Component {
   constructor(props: {}) {
     super(props);
-    const app = new Application();
+    new Application();
+
   }
 
   public render() {
