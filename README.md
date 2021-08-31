@@ -20,6 +20,8 @@ www.njstudio.co.kr
 
 [Typescript, React Starter](https://github.com/NamjuLee/react-typescript-starter) 
 
+[Desktop App Starter: Electron, HTML Canvas, TensorflowJS, Typescript](https://github.com/NamjuLee/electron-canvas-sandbox-starter)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ----
