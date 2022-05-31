@@ -4,7 +4,7 @@ import './App.css';
 
 class App extends Component {
   constructor() {
-    super({});
+    super({ title: 'props.title' });
   }
   public componentDidMount(){
     new Application();
@@ -12,7 +12,7 @@ class App extends Component {
   public render() {
     return (
       <div id = "main">
-        Hello World
+        Hello World!
       </div>
     );
   }
